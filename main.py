@@ -18,10 +18,10 @@ class KotoIgrashka:
         print(f"{name}: I've been working non stop for {months_old} months, someone free me...")
 
 dakimakura = KotoIgrashka('Dakimakura', 'large', 'cotton', 24)
-Igrashka = KotoIgrashka('Igrashka', 'small', 'cotton', 24)
-Squish = KotoIgrashka('Squish', 'extra small', 'squish', 1)
+igrashka = KotoIgrashka('Igrashka', 'small', 'cotton', 24)
+squish = KotoIgrashka('Squish', 'extra small', 'squish', 1)
 
 dakimakura.DoingHwForMe(dakimakura.name ,dakimakura.months_old)
-Igrashka.BeingSquished(Igrashka.name)
-Squish.Sleep(Squish.name)
-Squish.TalkBehindMyBack(Squish.name)
+igrashka.BeingSquished(igrashka.name)
+squish.Sleep(squish.name)
+squish.TalkBehindMyBack(squish.name)
